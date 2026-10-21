@@ -1,0 +1,5 @@
+Scope,ProposedGroupingRule,CandidateKey,LeakageControl,Status
+BJT_Common_Emitter,Use normalized circuit configuration key across all versions,R1;R2;RC;RE;RL;Cin;Cout;Ce;VCC,All versions of the same configuration must remain in one group,PROPOSED_NOT_APPROVED
+MOSFET_Common_Source,Use reconciled physical parameter key after schema/units review,RGU;RGL;RD;RS;VDD;VGS;Cin;Cout (verify actual aliases),Same physical circuit must not cross partitions,PROPOSED_NOT_APPROVED
+ALL_TOPOLOGIES,Keep topology-specific models and keys separate unless explicitly justified,Topology plus canonical configuration identity,Do not pool BJT and MOSFET samples as equivalent circuits,PROPOSED_NOT_APPROVED
+PROTECTED_EVALUATION,Keep protected validation/test artifacts out of fitting and tuning,Preserve source path and evaluation provenance,No reuse for training or hyperparameter selection without protocol review,PROTECT

@@ -1,0 +1,4 @@
+Case,DL_Predicted_Gain_dB,SPICE_Gain_dB,Prediction_Error_dB,Absolute_Error_dB,Actual_Improvement_dB,DL_Space_Euclidean_Distance,Maximum_Absolute_Z,Mean_Absolute_Z,Nearest_Training_Distance,Relative_NN_Distance,Extreme_Feature_Count
+Low,27.036734,22.923421,4.113313,4.113313,6.752787,3.8409,1.7713,1.128,1.7077,1.1257,2
+Medium,40.954315,39.290999,1.663316,1.663316,4.264688,4.5965,1.852,1.4623,1.9371,1.2769,4
+High,49.213421,47.069203,2.144218,2.144218,-0.586572,4.1944,1.8637,1.2744,1.4963,0.98639,3

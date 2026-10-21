@@ -1,0 +1,4 @@
+Model,EvaluationSubset,RMSE_dB,MAE_dB,R2
+A_Original_Model,All test circuits,8.05387914210113,5.03128219640565,0.441000251917611
+B_Saturation_Only,True saturation test circuits only,0.005761196815097,0.00459094327801974,0.999989981574687
+C_Two_Stage_Pipeline,All test circuits,7.49155605153355,3.14550915992029,0.516334107913572

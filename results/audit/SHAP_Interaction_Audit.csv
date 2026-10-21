@@ -1,0 +1,6 @@
+Check_Item,Expected,Observed,Status
+Matrix_Dimensions,"6 x 6 (R1, RE, RC, R2, VCC, RL)","6 x 6",PASS
+Matrix_Symmetry,"Symmetric (diff < 1e-4)","Max diff = 0.00e+00",PASS
+Diagonal_Self_Interaction,"Zero or NaN","Max diag = 0.00e+00",PASS
+R1_R2_Interaction_Magnitude,"0.61441 dB (Indices: R1=1, R2=4)","0.61441 dB",PASS
+R1_R2_Is_Top_Interaction,"Pair (R1, R2) has highest score","Max interaction at (R2, R1) with value 0.61441 dB",PASS

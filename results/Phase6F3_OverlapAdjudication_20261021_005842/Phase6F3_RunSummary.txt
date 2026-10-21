@@ -1,0 +1,20 @@
+PHASE 6F.3 - OVERLAP ADJUDICATION
+Timestamp: 20261021_005842
+Source folder: C:\Internship Project\results\Phase6F2_CrossDatasetOverlap_20261021_005428
+Read-only: YES
+Registered datasets: 19
+Registered paths found: 19
+Protected datasets: 2
+Phase 6F.2 pairs: 93
+Reconstructed dataset pairs: 93
+Proposed same-group decisions: 0
+Protected exclusions: 2
+No split created or approved.
+No model training performed.
+No source files modified.
+
+CAUTIONS
+Group IDs are proposals, not confirmed data provenance.
+MOSFET grouping remains provisional due to seven-key matching.
+Non-comparable pairs are unresolved, not independent.
+Protected artifacts remain excluded from fitting and tuning.

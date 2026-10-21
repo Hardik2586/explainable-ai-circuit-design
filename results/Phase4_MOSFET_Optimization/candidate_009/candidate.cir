@@ -1,0 +1,27 @@
+* Phase 4 common-source candidate
+.include "2N7000.onsemi.lib"
+VDD vdd 0 DC 12
+VIN in 0 DC 0 AC 1
+RGU vdd gate 116830.310265
+RGL gate 0 73043.5027799
+RD vdd drain 2321.88269769
+RS source 0 1001.22320025
+CIN in gate 6.63939276633e-06
+XM1 drain gate source 2N7000
+.control
+set noaskquit
+op
+echo PH4_DC_BEGIN
+print v(vdd)
+print v(gate)
+print v(drain)
+print v(source)
+echo PH4_DC_END
+ac lin 1 1000 1000
+let ph4gain = vdb(drain) - vdb(in)
+echo PH4_GAIN_BEGIN
+print ph4gain
+echo PH4_GAIN_END
+quit
+.endc
+.end

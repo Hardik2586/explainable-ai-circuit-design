@@ -1,0 +1,12 @@
+EvidenceArea,EvidenceResult,EvidenceStatus
+Dataset,660 physically valid circuits,PASS
+Prediction,DL R2 = 0.9007,PASS
+Cross-validation,DL CV R2 = 0.9174 +/- 0.0166,PASS
+XAI,SHAP rank Spearman = 0.8667,PASS
+Interaction,R1-R2 SHAP = 0.6144; SPICE Pearson = 0.9147,PASS_WITH_LIMITATION
+Optimization - Low,+6.7528 dB SPICE improvement,PASS
+Optimization - Medium,+4.2647 dB SPICE improvement,PASS
+Optimization - High,-0.5866 dB SPICE improvement,LIMITATION
+Circuit-aware constraints,3/3 final designs satisfy VCE >= 1.0 V and VCB >= 0.5 V,PASS
+Robustness,300 SPICE runs; 100.0% physically valid,PASS
+Surrogate limitation,DL +3.8906 dB vs SPICE -0.5866 dB,CRITICAL_LIMITATION

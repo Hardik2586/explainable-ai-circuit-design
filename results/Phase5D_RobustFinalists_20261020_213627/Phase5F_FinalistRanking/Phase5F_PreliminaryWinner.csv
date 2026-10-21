@@ -1,0 +1,2 @@
+Rank,CandidateID,Trials,ValidGainTrials,ValidPowerTrials,DCFeasibilityRate,RobustFeasibilityRate,DCFailures,RobustFailures,MeanGain_dB,MedianGain_dB,StdGain_dB,P05Gain_dB,WorstGain_dB,MeanSupplyPower_mW,P95SupplyPower_mW,MaxSupplyPower_mW
+1,152,200,200,200,0.95,0.95,10,10,9.821931751799,9.84497978117748,0.450846453112374,9.29762971923542,5.61832502226408,35.4826943409342,41.2512237149193,43.9078657194309

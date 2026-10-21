@@ -1,0 +1,18 @@
+Check,Status,Value
+Canonical dataset = 660 rows,PASS,660
+Operating-point rows = 660,PASS,660
+SPICE physical validity = 660/660,PASS,660/660
+Constraint coverage = 630/660,PASS,630/660
+DL test R2,PASS,0.900713
+DL 5-fold CV R2,PASS,0.9174
+DL-LSBoost SHAP Spearman,PASS,0.866667
+R1-R2 SHAP interaction,PASS,0.614414
+Low actual improvement,PASS,+6.752787 dB
+Medium actual improvement,PASS,+4.264688 dB
+High actual improvement,PASS,-0.586572 dB
+All final designs physically valid,PASS,3/3
+All final designs satisfy VCE/VCB constraints,PASS,3/3
+300 robustness simulations,PASS,300
+Robustness physical validity,PASS,100%
+Generalization error consistency,PASS,max diff = 4.885e-15
+High-gain surrogate limitation detected,PASS,Pred +3.890594 / Actual -0.586572 dB

@@ -1,0 +1,15 @@
+PHASE 3.1 - LOCAL MOSFET XAI
+Model: BaggedTrees
+Target: GainAt1kHz_dB (dB)
+Reference development row: 88
+Actual simulated gain: 6.457975 dB
+Predicted gain: 5.508463 dB
+
+Reference circuit parameters:
+RGU_Ohm = 100000
+RGL_Ohm = 75000
+RD_Ohm = 2200
+RS_Ohm = 1000
+CIN_F = 1e-05
+
+Interpretation: results describe model sensitivity. They do not establish causation or circuit validity.

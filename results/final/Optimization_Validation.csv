@@ -1,0 +1,4 @@
+Candidate,Baseline_SPICE_Gain_dB,ML_Predicted_Gain_dB,Validated_SPICE_Gain_dB,SPICE_Gain_Improvement_dB,Operating_VCE_V,Operating_IC_mA,Operating_Status
+Optimized_Low_Gain,9.41219725,33.8935791913695,37.4850078,28.07281055,1.333372,0.4794274,Verified_Active_Linear
+Optimized_Medium_Gain,35.22171155,40.5763932397779,41.2499167,6.02820515,4.977909,3.177683,Verified_Active_Linear
+Optimized_High_Gain,51.4450783,39.2260465642279,40.6817323,-10.763346,10.479923,2.158695,Verified_Active_Linear

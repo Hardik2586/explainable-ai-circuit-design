@@ -1,0 +1,25 @@
+RGU_Ohm,RGL_Ohm,RD_Ohm,RS_Ohm,CIN_F,VDD_V,ML_PredictedGain_dB,ML_AbsoluteError_dB,SPICE_Success,SPICE_PeakGain_dB,SPICE_PeakGainFrequency_Hz,SPICE_VGate_V,SPICE_VSource_V,SPICE_VDrain_V,SPICE_VGS_V,SPICE_VDS_V,SPICE_GainError_dB,SPICE_ErrorMessage
+100000,56000,1800,820,4.7e-06,9,11.6669591630806,88.3330408369194,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+100000,56000,2200,820,4.7e-06,9,11.3550604785647,88.6449395214353,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,56000,2200,820,2.2e-05,9,10.9934774238309,89.0065225761691,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+100000,56000,1800,820,2.2e-05,9,10.9812407767435,89.0187592232565,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+100000,56000,1800,820,1e-05,9,10.8298702811869,89.1701297188131,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,56000,2200,820,1e-05,9,10.2883785762078,89.7116214237922,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,75000,2200,820,2.2e-05,9,10.2226889992669,89.7773110007331,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,68000,2200,820,2.2e-05,9,10.1605602542231,89.8394397457769,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+100000,56000,1800,820,4.7e-06,12,11.6669591630806,88.3330408369194,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+100000,56000,2200,820,4.7e-06,12,11.3550604785647,88.6449395214353,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,56000,2200,820,2.2e-05,12,10.9934774238309,89.0065225761691,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+100000,56000,1800,820,2.2e-05,12,10.9812407767435,89.0187592232565,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+100000,56000,1800,820,1e-05,12,10.8298702811869,89.1701297188131,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,56000,2200,820,1e-05,12,10.2883785762078,89.7116214237922,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,75000,2200,820,2.2e-05,12,10.2226889992669,89.7773110007331,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,68000,2200,820,2.2e-05,12,10.1605602542231,89.8394397457769,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+100000,56000,1800,820,4.7e-06,15,11.6669591630806,88.3330408369194,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+100000,56000,2200,820,4.7e-06,15,11.3550604785647,88.6449395214353,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,56000,2200,820,2.2e-05,15,10.9934774238309,89.0065225761691,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+100000,56000,1800,820,2.2e-05,15,10.9812407767435,89.0187592232565,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+100000,56000,1800,820,1e-05,15,10.8298702811869,89.1701297188131,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,56000,2200,820,1e-05,15,10.2883785762078,89.7116214237922,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,75000,2200,820,2.2e-05,15,10.2226889992669,89.7773110007331,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.
+120000,68000,2200,820,2.2e-05,15,10.1605602542231,89.8394397457769,0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Undefined function 'getNodeVoltage' for input arguments of type 'SimulationResult'.

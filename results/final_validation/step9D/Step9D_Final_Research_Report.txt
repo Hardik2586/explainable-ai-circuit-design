@@ -1,0 +1,93 @@
+===============================================================
+FINAL RESEARCH REPORT
+Explainable AI Framework for Electronic Circuit Understanding
+and Design Optimization
+Common-Emitter BJT Amplifier
+===============================================================
+
+1. RESEARCH OBJECTIVE
+
+The objective of this research is to develop an explainable, physics-grounded surrogate framework for understanding and optimizing an electronic circuit. The framework learns relationships between circuit design parameters and amplifier gain while retaining SPICE as the physical ground truth.
+
+2. METHODOLOGY
+
+Problem formulation:
+The research addresses explainable surrogate modeling and design optimization of a Common-Emitter BJT amplifier. The objective is not to replace SPICE, but to create a data-driven assistant that learns relationships between circuit parameters and amplifier gain.
+
+Dataset generation:
+The canonical dataset contains 660 physically valid circuit configurations. The nine design variables are R1, R2, RC, RE, RL, Cin, Cout, Ce and VCC, with Gain_dB as the prediction target.
+
+Physical validation:
+Each canonical circuit was evaluated using SPICE. Operating point quantities including VCE and VCB were extracted and used to establish circuit-aware validity criteria.
+
+Machine learning:
+A classical LSBoost ensemble was used as the baseline model. A feed-forward deep neural network was then trained using the same canonical feature space and evaluated using a fixed held-out test set and five-fold cross-validation.
+
+Explainable AI:
+MATLAB SHAP analysis was used to quantify the contribution of individual circuit parameters to surrogate predictions. SHAP interaction analysis was further used to identify important parameter interactions.
+
+Optimization:
+The trained DL surrogate was embedded in constrained optimization to generate candidate amplifier designs. Optimization variables remained within dataset-derived bounds.
+
+Circuit-aware validation:
+Candidate designs were verified using SPICE. The selected operating-point constraints were VCE >= 1.0 V and VCB >= 0.5 V. SPICE remained the final physical authority.
+
+Robustness:
+Robustness was evaluated using 300 tolerance-perturbed SPICE simulations involving the specified resistor, capacitor and supply-voltage variations.
+
+Generalization:
+Optimization generalization was evaluated by comparing DL predictions against SPICE results and by examining transformed feature-space distance and standardized feature deviations.
+
+3. DATASET
+
+The canonical dataset contains 660 physically valid circuit configurations with 10 columns. The investigated gain range is 9.412 to 51.445 dB.
+
+4. MODEL PERFORMANCE
+
+The deep-learning model achieved R2=0.9007, RMSE=2.0978 dB and MAE=1.5673 dB on the held-out test set. The corresponding Pearson and Spearman correlations were 0.9507 and 0.9440.
+
+Five-fold cross-validation produced R2=0.9174 +/- 0.0166.
+
+Compared with LSBoost, the DL model improved R2 by 0.1140, reduced RMSE by 31.77% and reduced MAE by 38.45%.
+
+5. EXPLAINABLE AI
+
+The DL and LSBoost global SHAP rankings showed a Spearman correlation of 0.8667 and Pearson correlation of 0.9404. The R1-R2 interaction had a SHAP interaction value of 0.6144 and was further examined using SPICE validation.
+
+6. OPTIMIZATION
+
+The Low case improved by +6.7528 dB according to SPICE.
+The Medium case improved by +4.2647 dB according to SPICE.
+The High case changed by -0.5866 dB according to SPICE, despite a predicted improvement of +3.8906 dB.
+
+7. CIRCUIT-AWARE VALIDATION
+
+All three final designs satisfied VCE >= 1.0 V and VCB >= 0.5 V and were physically valid according to SPICE verification.
+
+8. ROBUSTNESS
+
+300 tolerance-perturbed SPICE simulations were performed. All tested simulations remained physically valid. The robustness result is limited to the specified perturbation ranges.
+
+9. GENERALIZATION AND LIMITATIONS
+
+The optimization prediction errors were 4.1133, 1.6633 and 2.1442 dB for the Low, Medium and High cases, respectively.
+
+The High case demonstrates an important limitation: the surrogate predicted +3.8906 dB improvement while SPICE measured -0.5866 dB. Consequently, the learned model should be regarded as a surrogate and candidate-generation mechanism rather than a replacement for physical circuit simulation.
+
+10. CONTRIBUTION
+
+The principal contribution is an integrated framework connecting physics-grounded circuit data generation, surrogate modeling, explainability, constrained optimization, direct SPICE verification and robustness evaluation. The framework explicitly preserves the distinction between learned model behavior and physical circuit behavior.
+
+11. CONCLUSION
+
+This research developed an explainable surrogate-assisted framework for understanding and optimizing a Common-Emitter BJT amplifier. The framework was constructed around SPICE as the physical ground truth and used machine learning and deep learning models as computational surrogates. On a canonical dataset of 660 physically valid circuit configurations, the deep-learning model achieved a held-out test R2 of 0.9007, RMSE of 2.0978 dB and MAE of 1.5673 dB. Five-fold cross-validation produced an R2 of 0.9174 +/- 0.0166, supporting the stability of the learned surrogate on the investigated dataset.
+
+Explainability analysis showed strong agreement between the global feature rankings of the deep-learning and LSBoost models, with a SHAP rank Spearman correlation of 0.8667. The R1-R2 interaction was identified as an important learned interaction and was further examined using direct SPICE sweeps. This establishes a link between model-level explanation and physical circuit validation without equating SHAP values with physical sensitivity coefficients.
+
+The surrogate-assisted optimization stage produced positive SPICE-verified improvements of +6.7528 dB and +4.2647 dB for the Low and Medium representative cases, respectively. The High case, however, produced a SPICE change of -0.5866 dB despite a predicted improvement of +3.8906 dB. This result is a critical limitation and demonstrates why the learned surrogate cannot be treated as a replacement for physical circuit simulation.
+
+All three final candidates satisfied the selected circuit-aware operating-point constraints of VCE >= 1.0 V and VCB >= 0.5 V. Furthermore, 300 tolerance-perturbed SPICE simulations remained physically valid. Therefore, the results support the framework as a physics-grounded, explainable and surrogate-assisted design methodology for the investigated Common-Emitter amplifier, while also establishing clear boundaries on its predictive and optimization generalization.
+
+===============================================================
+END OF REPORT
+===============================================================

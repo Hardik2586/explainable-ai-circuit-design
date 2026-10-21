@@ -1,0 +1,10 @@
+SummarySection,SummaryStatement,SummaryStatus
+Dataset validity,"The canonical dataset contains 660 physically valid ML rows with gain ranging from 9.412 to 51.445 dB.",PASS
+Predictive modeling,"The DL model achieved R2=0.9007, RMSE=2.0978 dB and MAE=1.5673 dB on the held-out test set and R2=0.9174 +/- 0.0166 across 5-fold CV.",PASS
+XAI,"Global SHAP analysis ranked R1, R2 and RE among the dominant variables, with DL/LSBoost SHAP rank Spearman correlation 0.8667.",PASS
+Interaction validation,"The R1-R2 interaction had SHAP value 0.6144 and the corresponding SPICE validation showed global Pearson correlation 0.9147.",PASS
+Optimization,"SPICE verification showed actual optimization improvements of +6.7528 dB, +4.2647 dB and -0.5866 dB for Low, Medium and High cases.",PASS_WITH_LIMITATION
+Circuit-aware validation,"All three final designs were physically valid and satisfied VCE >= 1.0 V and VCB >= 0.5 V.",PASS
+Robustness,"Across 300 tested tolerance-perturbed SPICE simulations, physical validity remained 100.0%.",PASS_WITHIN_TESTED_RANGE
+Generalization,"Optimization generalization errors were 4.113, 1.663 and 2.144 dB for Low, Medium and High cases.",PASS_WITH_LIMITATION
+Limitation,"The high-gain case exposed an important surrogate limitation: DL predicted +3.8906 dB improvement while SPICE measured -0.5866 dB. Therefore SPICE remains the final physical authority.",CRITICAL_LIMITATION

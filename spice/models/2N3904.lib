@@ -1,0 +1,10 @@
+* 2N3904 NPN BJT - standard Gummel-Poon SPICE model
+* Widely-published parameter set (Fairchild-derived), used as the
+* reference transistor for the CE amplifier dataset.
+* Swap this file for your simulator's own 2N3904 library if you
+* need vendor-exact results - the rest of the pipeline only cares
+* that a model named "2N3904" exists.
+.model 2N3904 NPN(IS=6.734f XTI=3 EG=1.11 VAF=74.03 BF=416.4 NE=1.259
++ ISE=6.734f IKF=66.78m XTB=1.5 BR=.7371 NC=2 ISC=0 IKR=0 RC=1
++ CJC=3.638p MJC=.3085 VJC=.75 FC=.5 CJE=4.493p MJE=.2593 VJE=.75
++ TR=239.5n TF=301.2p ITF=.4 VTF=4 XTF=2 RB=10)

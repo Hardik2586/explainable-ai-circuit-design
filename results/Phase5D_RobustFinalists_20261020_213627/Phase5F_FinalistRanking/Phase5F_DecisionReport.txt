@@ -1,0 +1,21 @@
+PHASE 5F: FINALIST RANKING
+
+Input CSV: C:\Internship Project\results\Phase5D_RobustFinalists_20261020_213627\Phase5D_AllTrials.csv
+Diagnosis CSV: C:\Internship Project\results\Phase5D_RobustFinalists_20261020_213627\Phase5E_Diagnosis\Phase5E_TrialDiagnosis.csv
+
+Ranking priority:
+1. Robust feasibility rate, descending
+2. 5th-percentile gain, descending
+3. Mean gain, descending
+4. Gain standard deviation, ascending
+5. Mean supply power, ascending
+
+Preliminary winner: Candidate 152
+Robust feasibility: 95.00%
+Mean gain: 9.8219 dB
+P05 gain: 9.2976 dB
+Worst gain: 5.6183 dB
+Gain standard deviation: 0.4508 dB
+Mean supply power: 35.4827 mW
+
+WARNING: This ranking inherits the Phase 5E constraint definitions. Validate the 1 V VDS minimum, drain-ratio bounds, and 3 dB gain requirement before calling this a validated final design.

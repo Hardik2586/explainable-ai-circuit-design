@@ -1,0 +1,9 @@
+ProtocolID,Control,ProposedRule,Status
+P01,Topology separation,"Maintain separate BJT common-emitter and MOSFET common-source pipelines",REQUIRED
+P02,Configuration grouping,"Group identical canonical circuit configurations before any partitioning",REQUIRED
+P03,Version lineage,"Keep overlapping versions and derived copies in the same group",REQUIRED
+P04,Protected evaluation,"Do not use protected test/validation artifacts for fitting, feature selection, or tuning",REQUIRED
+P05,Status integrity,"Resolve simulation and extraction failures before defining eligible targets",REQUIRED
+P06,Missingness policy,"Document missingness handling separately for features, labels, and diagnostics",REQUIRED
+P07,Independent test,"Use a genuinely independent test source only after provenance is verified",PENDING_EVIDENCE
+P08,Split creation,"Create no split until grouping, eligibility, and protected boundaries are reviewed",NOT_APPLIED

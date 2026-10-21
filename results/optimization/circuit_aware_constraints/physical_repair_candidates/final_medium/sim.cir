@@ -1,0 +1,52 @@
+CE Amplifier - AC Analysis
+
+.include "C:/Internship Project/spice/models/2N3904.lib"
+
+* Power Supply
+Vcc VCC 0 DC 14.98971949
+
+* Input AC Source
+Vin IN 0 DC 0 AC 1
+
+* Input Coupling Capacitor
+Cin IN BASE 9.919189205e-05
+
+* Bias Network
+R1 VCC BASE 26414.36095
+R2 BASE 0 14097.69469
+
+* Transistor
+Q1 COLL BASE EMIT 2N3904
+
+* Collector Resistor
+RC1 VCC COLL 2850.526275
+
+* Emitter Resistor and Bypass
+RE1 EMIT 0 4568.675813
+CE1 EMIT 0 0.0009913285689
+
+* Output Coupling Capacitor
+Cout COLL OUT 1.021565025e-08
+
+* Load Resistor
+RL1 OUT 0 24765.44909
+
+* Temperature
+.options TEMP=27.0
+
+* DC Operating Point & AC Analysis
+.control
+op
+print v(base)
+print v(emit)
+print v(coll)
+print @q1[ib]
+print @q1[ic]
+print @q1[ie]
+ac dec 20 10 1000000000
+wrdata ac_gain.txt vdb(out)
+wrdata ac_phase.txt vp(out)
+quit
+.endc
+
+.end

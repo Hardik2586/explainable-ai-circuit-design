@@ -1,0 +1,2 @@
+CandidateID,Trials,RobustFeasibleTrials,SimulationErrorTrials,DCFeasibilityRate,ACSuccessRate,RobustFeasibilityRate,Wilson95_CI_Lower,Wilson95_CI_Upper,MeanGain_dB,StdGain_dB,P05Gain_dB,WorstGain_dB,MeanSupplyPower_mW
+152,1000,888,0,0.888,1,0.888,0.86694997632409,0.906080459091119,9.83753331025842,0.726284130668526,9.27995933607853,-5.61880132122154,35.660292368032

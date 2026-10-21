@@ -1,0 +1,14 @@
+Check,Passed
+Result files,1
+Dataset,1
+Deep Learning,1
+Cross-validation,1
+Model comparison,1
+DL SHAP,1
+Classical sensitivity,1
+SHAP interaction,1
+R1-R2 SPICE validation,1
+Optimization,1
+Optimization SPICE verification,1
+XAI-optimization analysis,1
+XAI-physical validation,1

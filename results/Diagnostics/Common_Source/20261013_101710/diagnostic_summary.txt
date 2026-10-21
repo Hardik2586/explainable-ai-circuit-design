@@ -1,0 +1,10 @@
+COMMON-SOURCE DIAGNOSTIC SUMMARY
+Dataset: C:\Internship Project\results\Optimization\Common_Source_Exhaustive\20261013_030513\all_1215_candidate_results.csv
+Rows in original table: 1215
+Rows analyzed: 1215
+Gain minimum: -41.217152 dB
+Gain maximum: 9.706900 dB
+Gain mean: 1.437266 dB
+Gain median: 5.925575 dB
+Gain standard deviation: 10.886182 dB
+IQR outliers: 201

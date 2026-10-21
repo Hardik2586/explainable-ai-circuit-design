@@ -1,0 +1,9 @@
+Audit_Item,Reported,Audited,Status
+Total_Simulations_Attempted,675,675,PASS
+SPICE_Software_Execution_Rate,675 / 675 (100.0%),675 / 675 (100.0%),PASS
+Active_Linear_Operating_Points,587,587,PASS
+Saturation_Region_Points,87,87,PASS
+Cutoff_Region_Points,1,1,PASS
+Overall_Pearson_Correlation,0.9147,0.9147,PASS
+Overall_Spearman_Correlation,0.8738,0.8738,PASS
+Overall_Surface_RMSE,6.8900 dB,6.8900 dB,PASS

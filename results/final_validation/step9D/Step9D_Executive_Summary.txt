@@ -1,0 +1,21 @@
+FINAL RESEARCH EXECUTIVE SUMMARY
+================================
+
+Dataset: 660 physically valid CE amplifier circuits.
+DL test R2: 0.9007.
+DL test RMSE: 2.0978 dB.
+DL 5-fold CV R2: 0.9174 +/- 0.0166.
+DL versus LSBoost R2 improvement: +0.1140.
+SHAP rank Spearman: 0.8667.
+R1-R2 SHAP interaction: 0.6144.
+Low SPICE improvement: +6.7528 dB.
+Medium SPICE improvement: +4.2647 dB.
+High SPICE improvement: -0.5866 dB.
+Robustness simulations: 300.
+Robustness physical validity: 100.0%.
+Final physical validity: 3/3.
+Final circuit constraint validity: 3/3.
+
+Critical limitation: DL predicted +3.8906 dB for the High case while SPICE measured -0.5866 dB.
+
+Scientific conclusion: the framework is best characterized as a physics-grounded, explainable, surrogate-assisted circuit design methodology in which SPICE remains the final physical authority.

@@ -1,0 +1,6 @@
+FileA,FileB,PriorAuditNote,Action
+data\final\CE_Amplifier_ML_Valid.csv,data\final\CE_Amplifier_OperatingPoint_660.csv,BJT; prior audit reported 660/660 configuration overlap,REVIEW_ONLY_NO_SPLIT_APPROVED
+CE_Amplifier_Dataset_v3_500.csv,CE_Amplifier_Dataset_v4_500_1GHz.csv,BJT; prior audit reported 500/500 configuration overlap,REVIEW_ONLY_NO_SPLIT_APPROVED
+CE_Amplifier_ML_Valid.csv,CE_Amplifier_Dataset_v5_2000_1GHz.csv,BJT; prior audit reported 660 shared configurations,REVIEW_ONLY_NO_SPLIT_APPROVED
+CE_Amplifier_OperatingPoint_660.csv,CE_Amplifier_Dataset_v5_2000_1GHz.csv,BJT; prior audit reported 660 shared configurations,REVIEW_ONLY_NO_SPLIT_APPROVED
+Phase5A_DC_Candidates.csv,Phase5A/derived operating-region table,MOSFET; earlier audit indicated 205 configurations are a subset of 1215,REVIEW_ONLY_NO_SPLIT_APPROVED

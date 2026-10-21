@@ -1,0 +1,6 @@
+Feature,ReferenceValue
+RGU_Ohm,100000
+RGL_Ohm,75000
+RD_Ohm,2200
+RS_Ohm,1000
+CIN_F,1e-05

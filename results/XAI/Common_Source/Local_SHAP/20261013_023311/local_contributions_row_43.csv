@@ -1,0 +1,7 @@
+Circuit,Feature,FeatureValue,ShapleyContribution_dB
+CircuitRow_43,RD_Ohm,1800,0.867376438534163
+CircuitRow_43,VDD_V,12,0
+CircuitRow_43,CIN_F,4.7e-06,-0.995660100160834
+CircuitRow_43,RS_Ohm,820,-4.70279419982567
+CircuitRow_43,RGU_Ohm,82000,-6.39419748917055
+CircuitRow_43,RGL_Ohm,100000,-9.02307097010233

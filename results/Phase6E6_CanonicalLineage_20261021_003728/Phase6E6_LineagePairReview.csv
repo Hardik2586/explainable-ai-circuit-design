@@ -1,0 +1,6 @@
+FileA,FileB,Topology,Relationship,Evidence
+CE_Amplifier_Dataset_v3_500.csv,CE_Amplifier_Dataset_v4_500_1GHz.csv,BJT_Common_Emitter,CONFIGURATION_OVERLAP_CONFIRMED,Phase6E.4: 500 shared configurations; 20 status-field mismatch records
+CE_Amplifier_Dataset_v3_500.csv,CE_Amplifier_OperatingPoint_660.csv,BJT_Common_Emitter,CONFIGURATION_OVERLAP_REPORTED,Prior governance: OperatingPoint and v3 share 500 of 500 configurations
+CE_Amplifier_Dataset_v4_500_1GHz.csv,CE_Amplifier_OperatingPoint_660.csv,BJT_Common_Emitter,CONFIGURATION_OVERLAP_REPORTED,Prior governance: v4 and OperatingPoint have documented overlapping lineage
+CE_Amplifier_OperatingPoint_660.csv,CE_Amplifier_Dataset_v5_2000_1GHz.csv,BJT_Common_Emitter,CONFIGURATION_OVERLAP_REPORTED,Prior governance: known shared BJT configurations; verify exact matching before final use
+CS_Pilot_20261013_015305.csv,CS_Dataset_v2_100.csv,MOSFET_Common_Source,UNRESOLVED_SCHEMA_OR_VALUE_MISMATCH,Phase6E.4: zero shared keys; schema reconciliation required

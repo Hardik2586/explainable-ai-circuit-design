@@ -1,0 +1,10 @@
+Audit_Check,Status,Details
+Required files,PASS,"8/8 required files found."
+Operating-point dataset,PASS,"660/660 SPICE operating points physically valid; 630/660 satisfy selected VCE/VCB optimization constraints."
+Operating-point surrogate models,PASS,"VCE R2=0.7913, VCB R2=0.7915; limits VCE>=1.0 V and VCB>=0.5 V."
+Step 8E column detection,PASS,"All 10 required Step 8E columns detected."
+Step 8E improvement consistency,FAIL,"Reported improvement values match recomputed gain differences."
+Step 8E SPICE circuit constraints,PASS,"All three final candidates satisfy VCE>=1.0 V and VCB>=0.5 V in SPICE."
+High-gain surrogate limitation,PASS,"The high-gain candidate demonstrates a surrogate generalization limitation: the DL model predicted positive improvement while SPICE measured negative improvement."
+Step 8F generalization analysis,PASS,"Step 8F generalization outputs are readable and contain optimized-case analysis."
+Step 8E / Step 8F consistency,PASS,"DL-vs-SPICE prediction errors agree between Step 8E and Step 8F."

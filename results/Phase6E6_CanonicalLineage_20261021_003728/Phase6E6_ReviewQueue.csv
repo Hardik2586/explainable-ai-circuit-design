@@ -1,0 +1,7 @@
+ReviewID,Scope,Question,RequiredEvidence,Status
+R01,BJT,Investigate 10 configurations with status changes between v3 and v4,"Compare source netlists, simulator logs, extraction settings, and raw records",OPEN
+R02,MOSFET,Reconcile pilot and external-validation column aliases and units,"Inspect schema, parameter ranges, and actual row values; do not infer independence",OPEN
+R03,BJT,Establish primary source and derivation history for v3/v4/v5/OperatingPoint,"Review generator scripts and simulation provenance",OPEN
+R04,MOSFET,Verify whether pilot and validation rows originate from separate generation runs,"Check generation seeds, source scripts, configuration identity, and timestamps",OPEN
+R05,EVALUATION,Verify protected test/validation artifacts and usage restrictions,"Trace evaluation protocol and downstream dependencies",OPEN
+R06,ALL,Approve canonical dataset and split policy only after review,"Human review required; this script does not approve or apply a split",OPEN

@@ -1,0 +1,19 @@
+PHASE 6E.5 AUDIT
+Timestamp: 20261021_003430
+Read-only: YES
+
+MOSFET pilot rows: 20
+MOSFET validation rows: 100
+MOSFET pilot columns: 23
+MOSFET validation columns: 28
+
+MOSFET alias candidate rows: 24
+BJT v3 rows: 500
+BJT v4 rows: 500
+BJT shared configuration signatures: 500
+BJT status discrepancy records: 20
+
+No source files modified.
+No training performed.
+No train/test split approved.
+No independence inferred from zero overlap.

@@ -1,0 +1,7 @@
+ContributionID,Contribution,ContributionEvidence,ContributionStatus
+CON01,Physics-grounded surrogate modeling,660 physically valid CE amplifier circuits used as the canonical dataset.,DEMONSTRATED
+CON02,Deep-learning-based circuit gain prediction,DL achieved R2=0.9007 and RMSE=2.0978 dB on the held-out test set.,DEMONSTRATED
+CON03,Explainable circuit-parameter analysis,Global SHAP rank agreement between DL and LSBoost: Spearman=0.8667.,DEMONSTRATED
+CON04,Surrogate-assisted circuit optimization,SPICE-verified improvement of +6.7528 dB and +4.2647 dB for Low and Medium cases.,DEMONSTRATED_FOR_REPRESENTATIVE_CASES
+CON05,Circuit-aware SPICE validation and robustness analysis,300 SPICE robustness simulations with 100.0% physical validity.,DEMONSTRATED_WITHIN_TESTED_RANGE
+CON06,Explicit identification of surrogate limitations,High-gain DL prediction +3.8906 dB versus SPICE -0.5866 dB.,DEMONSTRATED

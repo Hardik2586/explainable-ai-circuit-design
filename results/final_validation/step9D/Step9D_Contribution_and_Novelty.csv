@@ -1,0 +1,7 @@
+NoveltyArea,NoveltyStatement,NoveltyQualification
+Integrated framework,"An integrated workflow connects SPICE-based circuit generation, surrogate modeling, XAI, constrained optimization, SPICE verification and robustness analysis in a single pipeline.",Framework-level contribution
+Physics-grounded learning,"The approach explicitly retains SPICE as physical ground truth rather than treating the learned model as a replacement for circuit simulation.",Methodological contribution
+Explainability,"The framework links global SHAP explanations and parameter interaction analysis with direct SPICE validation.",Explainability contribution
+Circuit-aware optimization,"Optimization is constrained using circuit operating-point criteria derived from actual SPICE operating-point data.",Optimization methodology
+Physical verification,"Every final optimization candidate is checked against the physical circuit simulator before being treated as a valid design result.",Validation methodology
+Robustness,"The workflow evaluates not only nominal optimization results but also tolerance-perturbed physical validity.",Robustness methodology

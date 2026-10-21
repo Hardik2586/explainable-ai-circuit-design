@@ -1,0 +1,3 @@
+Topology,FileA,PathA,FileB,PathB,SharedConfigurationCount,ProtectedEvaluationInvolved
+BJT_Common_Emitter,CE_Amplifier_ML_Valid.csv,C:\Internship Project\data\final\CE_Amplifier_ML_Valid.csv,CE_Amplifier_OperatingPoint_660.csv,C:\Internship Project\data\processed\CE_Amplifier_OperatingPoint_660.csv,660,0
+BJT_Common_Emitter,CE_Amplifier_Dataset_v3_500.csv,C:\Internship Project\data\processed\CE_Amplifier_Dataset_v3_500.csv,CE_Amplifier_Dataset_v4_500_1GHz.csv,C:\Internship Project\data\processed\CE_Amplifier_Dataset_v4_500_1GHz.csv,500,0

@@ -1,0 +1,31 @@
+* Classical sensitivity simulation - Representative_1_R2_minus1pct
+.include "C:/Internship Project/ce_amplifier_dataset/models/2N3904.lib"
+.options TEMP=27 TNOM=27
+
+Vcc VCC 0 DC 5.560343869664e+00
+Vin IN 0 DC 0 AC 1
+Cin IN BASE 1.815315443628e-08
+R1 VCC BASE 7.697852304306e+04
+R2 BASE 0 2.445819962022e+04
+Q1 COLL BASE EMIT 2N3904
+RC1 VCC COLL 5.096089656702e+02
+RE1 EMIT 0 4.613324508925e+03
+CE1 EMIT 0 7.745080626852e-07
+Cout COLL OUT 6.453519662364e-05
+RL1 OUT 0 5.431201102646e+04
+
+.control
+set noaskquit
+op
+print v(base)
+print v(emit)
+print v(coll)
+print @q1[ib]
+print @q1[ic]
+print @q1[ie]
+ac dec 20 10 1000000000
+wrdata Representative_1_R2_minus1pct_gain.txt vdb(out)
+wrdata Representative_1_R2_minus1pct_phase.txt vp(out)
+quit
+.endc
+.end

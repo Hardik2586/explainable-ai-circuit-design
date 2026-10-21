@@ -1,0 +1,6 @@
+OptimizationDiscussion,OptimizationStatement
+Low-gain case,"The Low case improved from 16.1706 dB baseline SPICE gain to 22.9234 dB after optimization, an actual improvement of +6.7528 dB."
+Medium-gain case,"The Medium case improved from 35.0263 dB baseline SPICE gain to 39.2910 dB after optimization, an actual improvement of +4.2647 dB."
+High-gain case,"The High case illustrates surrogate error: DL predicted +3.8906 dB improvement while SPICE measured -0.5866 dB."
+Circuit-aware validation,"All three final candidates satisfy VCE >= 1.0 V and VCB >= 0.5 V according to final SPICE verification."
+Overall interpretation,"The results support surrogate-assisted optimization rather than fully autonomous optimization. Candidate designs must remain subject to physical SPICE verification."

@@ -1,0 +1,4 @@
+Case,Prediction_Error_dB,Absolute_Error_dB,DL_Space_Distance,Maximum_Absolute_Z,Mean_Absolute_Z
+Low,4.113313,4.113313,3.8409,1.7713,1.128
+Medium,1.663316,1.663316,4.5965,1.852,1.4623
+High,2.144218,2.144218,4.1944,1.8637,1.2744

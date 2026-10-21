@@ -1,0 +1,15 @@
+PHASE 1 - MOSFET PIPELINE READINESS
+Original dataset: C:\Internship Project\data\universal\Common_Source\external_model_validation\20261020_000113\CS_Dataset_v2_100.mat
+Original rows: 100
+Training-ready rows: 100
+Invalid/failed or non-finite target rows: 0
+Rows matching protected configurations: 0
+Target: GainAt1kHz_dB (dB)
+Model features: RGU_Ohm, RGL_Ohm, RD_Ohm, RS_Ohm, CIN_F
+Constant features excluded: VDD_V
+Training-ready CSV: C:\Internship Project\data\universal\Common_Source\training_ready\MOSFET_TrainingReady_GainAt1kHz.csv
+Training-ready MAT: C:\Internship Project\data\universal\Common_Source\training_ready\MOSFET_TrainingReady_GainAt1kHz.mat
+Protected evaluation data modified: NO
+Model trained: NO
+Train/test split created: NO
+Readiness status: DATA PREPARED; VALIDATE BEFORE TRAINING

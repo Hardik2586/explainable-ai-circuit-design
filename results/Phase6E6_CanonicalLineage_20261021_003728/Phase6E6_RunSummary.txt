@@ -1,0 +1,16 @@
+PHASE 6E.6 - CANONICAL LINEAGE AND GROUPING PROPOSAL
+Timestamp: 20261021_003728
+Read-only: YES
+Registered unique paths: 19
+Readable files: 19
+Missing files: 0
+Read errors: 0
+Protected evaluation entries: 2
+Review queue items: 6
+Known lineage pair rows: 5
+
+No source data modified.
+No model training performed.
+No train/test split created, applied, or approved.
+No independence inferred from zero configuration overlap.
+All canonical roles and grouping rules remain proposals.

@@ -1,0 +1,5 @@
+Margin_V,VCE_Conservative_Count,VCE_Conservative_Percent,VCE_FalseFeasible_Count,VCB_Conservative_Count,VCB_Conservative_Percent,VCB_FalseFeasible_Count
+0.05,132,100,3,132,100,7
+0.1,132,100,3,132,100,7
+0.2,132,100,3,131,99.2424242424242,6
+0.3,131,99.2424242424242,3,130,98.4848484848485,6

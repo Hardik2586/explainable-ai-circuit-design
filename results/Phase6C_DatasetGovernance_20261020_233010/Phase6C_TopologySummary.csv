@@ -1,0 +1,4 @@
+Topology,CSVFiles,DataFolderFiles,ResultsFolderFiles,ReadableFiles,ReadErrors,ReviewRequired
+BJT_Common_Emitter,19,6,13,19,0,14
+MOSFET_Common_Source,101,13,88,99,2,50
+Unknown,148,0,148,148,0,89

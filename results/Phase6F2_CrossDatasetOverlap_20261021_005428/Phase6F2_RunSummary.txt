@@ -1,0 +1,24 @@
+PHASE 6F.2 - CROSS-DATASET CONFIGURATION OVERLAP
+Timestamp: 20261021_005428
+Read-only: YES
+Registered files: 19
+Readable files: 19
+Pair comparisons recorded: 93
+Pair comparisons with matches: 12
+Pairs not comparable: 42
+Row-level matching records: 2612
+
+METHOD
+BJT signatures use nine mapped parameters.
+MOSFET signatures provisionally use seven mapped parameters.
+MOSFET Cout_F is excluded because its mapping remains unresolved.
+Numeric serialization uses 10 significant digits; no physical tolerance is applied.
+Cross-file units and physical equivalence are not verified by this script.
+
+INTERPRETATION LIMITS
+A match is evidence of a shared normalized signature on the tested keys.
+A non-match does not prove dataset independence.
+Missing keys or ambiguous mappings prevent a valid pair comparison.
+Prior BJT v3/v4 evidence: 500 shared configurations and 20 status discrepancies.
+Prior MOSFET pilot/validation zero-match finding remains unresolved.
+No training, splitting, or source modification occurred.

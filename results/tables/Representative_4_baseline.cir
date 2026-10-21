@@ -1,0 +1,28 @@
+* ======================================================
+* CE AMPLIFIER SENSITIVITY SIMULATION
+* Run: Representative_4_baseline
+* ======================================================
+
+.include "C:/Internship Project/ce_amplifier_dataset/models/2N3904.lib"
+.options TEMP=27 TNOM=27
+
+VCC vcc 0 DC 13.6189532933
+VIN in 0 DC 0 AC 1
+R1 vcc base 150733.850413
+R2 base 0 43456.6637696
+RC vcc coll 3155.06887369
+RE emit 0 947.492337213
+Cin in base 1.58416597036e-05
+Cout coll out 1.62488595778e-08
+Ce emit 0 0.00076992735834
+RL out 0 2353.23627288
+Q1 coll base emit 2N3904
+
+.control
+set noaskquit
+op
+ac dec 20 10 1000000000
+wrdata "Representative_4_baseline_gain.txt" vdb(out)
+quit
+.endc
+.end

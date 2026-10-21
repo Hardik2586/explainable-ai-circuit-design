@@ -1,0 +1,13 @@
+PHASE 5H FAILURE ANALYSIS
+
+Input CSV: C:\Internship Project\results\Phase5G_IndependentValidation_20261020_220649\Phase5G_IndependentValidation_AllTrials.csv
+Total trials: 1000
+DC-feasible trials: 888 (88.80%)
+Finite gain trials: 1000
+Gain below 3.00 dB: 2
+DC-feasible and gain below threshold: 0
+Recorded robust-feasible: 888
+Reconstructed robust-feasible: 888
+Missing/nonfinite gain: 0
+Potential simulation errors: 0
+Robust classification mismatches: 0

@@ -1,0 +1,45 @@
+# MATLAB temporary files
+*.asv
+*.m~
+*.autosave
+slprj/
+codegen/
+*.slxc
+
+# Exclude downloaded raw datasets; document how to obtain them
+/data/raw/
+/external_data/SKY130/raw/
+
+# Exclude bundled ngspice installation and archive
+/models/mosfet/ngspice-47_64/
+/models/mosfet/ngspice-47_64.7z
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Operating system files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Generated SPICE simulation logs
+/spice/logs/
+**/*_gain.txt
+**/*_phase.txt
+
+# Generated simulation outputs
+/spice/logs/
+/spice/netlists/C*.cir
+**/*_gain.txt
+**/*_phase.txt
+**/*.log
+
+# Temporary SPICE test outputs
+/tests/spice/temp_test_runs/
+/xai/validation/spice_work/
+# Generated netlists from failed R1/R2 sweep
+/archive/failed_experiments/R1_R2_SPICE_validation_failed/R1_R2_SPICE_Validation/*.cir

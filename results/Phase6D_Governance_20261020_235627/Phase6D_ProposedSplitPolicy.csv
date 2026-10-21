@@ -1,0 +1,9 @@
+Scope,GroupingRule,Restriction,Status
+BJT_Common_Emitter,Group by complete circuit configuration across related versions.,"Do not split overlapping versions independently.","Pending lineage, target, and feature review"
+MOSFET_Common_Source,Group by compatible MOSFET circuit parameters.,"Keep configuration groups together across source and derived files.","Pending source and label review"
+Historical test/holdout,Preserve the existing evaluation role.,"Do not use for fitting, feature selection, or model tuning.","Protected"
+Derived/prediction/report files,Trace back to source configuration and generation process.,"Do not automatically promote to independent training data.","Review required"
+Files with missing values,Inspect missingness by column and row.,"Do not silently impute or remove rows in this phase.","Review required"
+Unknown topology,Establish topology and schema first.,"Do not mix with BJT or MOSFET families.","Blocked pending classification"
+New test partition,Use only after dataset lineage is approved.,"Use group-aware partitioning with documented random seed.","Not authorized by Phase 6D"
+External independent evaluation,Keep independent configurations and provenance records.,"Do not tune the model against the final evaluation set.","Future evaluation design"

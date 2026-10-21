@@ -1,0 +1,28 @@
+Metric,Value
+Canonical dataset rows,660
+Canonical dataset gain minimum,9.41219725
+Canonical dataset gain median,35.189491325
+Canonical dataset gain maximum,51.4450783
+SPICE physical validity,100
+Circuit-aware constraint coverage,95.4545454545455
+DL test R2,0.90071344951091
+DL test RMSE,2.09782059636698
+DL test MAE,1.56728440342527
+LSBoost test R2,0.78672783224615
+LSBoost test RMSE,3.07461134593401
+LSBoost test MAE,2.54649268069009
+DL 5-fold CV R2,0.917361148259181
+DL 5-fold CV RMSE,2.05248327556066
+DL 5-fold CV MAE,1.60144962497834
+DL-vs-LSBoost R2 improvement,0.11398561726476
+DL-vs-LSBoost RMSE reduction,31.7695682369341
+DL-vs-LSBoost MAE reduction,38.4532138925863
+DL-LSBoost SHAP Spearman,0.866666666666667
+DL-LSBoost SHAP Pearson,0.940377719514679
+R1-R2 SHAP interaction,0.614414
+R1-R2 SPICE global Pearson,0.914717
+R1-R2 SPICE global Spearman,0.873801
+R1-R2 SPICE global RMSE,6.889992
+Total robustness SPICE runs,300
+Robustness physical validity,100
+High-gain limitation detected,1

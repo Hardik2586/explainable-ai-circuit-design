@@ -1,0 +1,9 @@
+Setting,Value
+ProjectRoot,C:\Internship Project
+AuditTimestamp,20261020_233010
+RandomSeed,63026
+TrainFraction,0.7
+ValidationFraction,0.15
+TestFraction,0.15
+SourceDataModified,No
+ModelsRetrained,No

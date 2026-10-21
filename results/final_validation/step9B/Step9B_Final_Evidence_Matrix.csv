@@ -1,0 +1,11 @@
+EvidenceID,ResearchArea,Claim,EvidenceSource,Result,EvidenceStatus
+E01,Dataset,The framework uses a physically valid CE amplifier dataset,Canonical ML + operating-point datasets,"660 rows; 660/660 physically valid",DEMONSTRATED
+E02,Predictive modeling,DL provides useful gain prediction,DL held-out test set,"R2=0.9007; RMSE=2.0978 dB",DEMONSTRATED
+E03,Cross-validation,DL performance is stable across folds,5-fold cross-validation,"R2=0.9174 +/- 0.0166",DEMONSTRATED
+E04,Explainability,XAI identifies dominant design variables,Global SHAP analysis,"R1 > R2 > RE > RC > VCC > RL",DEMONSTRATED
+E05,Interaction analysis,Model interaction evidence has SPICE correspondence,SHAP interaction + R1-R2 SPICE sweep,"SHAP interaction=0.6144; SPICE Pearson=0.9147",SUPPORTED_WITH_LIMITATION
+E06,Optimization,Optimization can produce improved candidates,Step 8E optimization + SPICE verification,"Low +6.7528 dB; Medium +4.2647 dB",DEMONSTRATED_FOR_REPRESENTATIVE_CASES
+E07,Circuit-aware validation,Final candidates satisfy physical operating constraints,Step 8E operating-point verification,"3/3 final designs pass",DEMONSTRATED
+E08,Robustness,Tested optimized designs remain physically valid under component variation,300-run robustness SPICE analysis,"300 runs; 100.0% valid",DEMONSTRATED_WITHIN_TESTED_RANGES
+E09,Generalization,Optimization errors can be quantified against SPICE,Step 8F generalization analysis,"Absolute errors 4.113 / 1.663 / 2.144 dB",DEMONSTRATED
+E10,Scientific limitation,SPICE remains necessary for final verification,High-gain optimization discrepancy,"High case: predicted +3.8906 dB, actual -0.5866 dB",DEMONSTRATED_AS_LIMITATION

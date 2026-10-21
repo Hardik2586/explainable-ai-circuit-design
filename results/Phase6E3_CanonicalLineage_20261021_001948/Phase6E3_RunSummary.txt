@@ -1,0 +1,8 @@
+PHASE 6E.3 CANONICAL LINEAGE ADJUDICATION
+Files inventoried: 19
+Configuration overlap pairs: 12
+Shared output comparisons: 240
+No source files modified.
+No canonical dataset automatically approved.
+No train/test split applied.
+No model trained.

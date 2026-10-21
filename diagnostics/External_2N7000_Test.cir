@@ -1,0 +1,28 @@
+* ==================================================
+* Universal Circuit-XAI SPICE Netlist
+* ==================================================
+* Circuit: External_2N7000_Test
+* Topology: Common_Source
+* Generated: 19-Oct-2026 23:16:45
+* ==================================================
+
+
+* EXTERNAL SUBCIRCUIT LIBRARIES
+.include "C:/Internship Project/models/mosfet/2N7000.onsemi.lib"
+
+VDD VDD GND DC 12
+VIN IN GND DC 0 AC 1 0
+RD VDD DRAIN 2200
+RS SOURCE GND 820
+RGU VDD GATE 100000
+XM1 DRAIN GATE SOURCE 2N7000
+RGL GATE GND 56000
+CIN IN GATE 1e-05
+
+* ==================================================
+* ANALYSIS
+* ==================================================
+.ac dec 50 10 1000000
+.print ac vm(IN) vp(IN) vm(GATE) vp(GATE) vm(DRAIN) vp(DRAIN)
+
+.end

@@ -1,0 +1,8 @@
+PHASE 3 - MOSFET XAI
+Model: BaggedTrees
+Target: GainAt1kHz_dB (dB)
+Rows explained: 100
+Features: RGU_Ohm, RGL_Ohm, RD_Ohm, RS_Ohm, CIN_F
+Base development RMSE: 5.333456 dB
+Reference prediction: 5.508463 dB
+Interpretation: explanations describe fitted model behavior and do not establish causation or circuit validity.

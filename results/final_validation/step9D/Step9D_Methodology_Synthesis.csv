@@ -1,0 +1,10 @@
+MethodSection,MethodDescription
+Problem formulation,"The research addresses explainable surrogate modeling and design optimization of a Common-Emitter BJT amplifier. The objective is not to replace SPICE, but to create a data-driven assistant that learns relationships between circuit parameters and amplifier gain."
+Dataset generation,"The canonical dataset contains 660 physically valid circuit configurations. The nine design variables are R1, R2, RC, RE, RL, Cin, Cout, Ce and VCC, with Gain_dB as the prediction target."
+Physical validation,"Each canonical circuit was evaluated using SPICE. Operating point quantities including VCE and VCB were extracted and used to establish circuit-aware validity criteria."
+Machine learning,"A classical LSBoost ensemble was used as the baseline model. A feed-forward deep neural network was then trained using the same canonical feature space and evaluated using a fixed held-out test set and five-fold cross-validation."
+Explainable AI,"MATLAB SHAP analysis was used to quantify the contribution of individual circuit parameters to surrogate predictions. SHAP interaction analysis was further used to identify important parameter interactions."
+Optimization,"The trained DL surrogate was embedded in constrained optimization to generate candidate amplifier designs. Optimization variables remained within dataset-derived bounds."
+Circuit-aware validation,"Candidate designs were verified using SPICE. The selected operating-point constraints were VCE >= 1.0 V and VCB >= 0.5 V. SPICE remained the final physical authority."
+Robustness,"Robustness was evaluated using 300 tolerance-perturbed SPICE simulations involving the specified resistor, capacitor and supply-voltage variations."
+Generalization,"Optimization generalization was evaluated by comparing DL predictions against SPICE results and by examining transformed feature-space distance and standardized feature deviations."

@@ -1,0 +1,7 @@
+RobustnessDiscussion,RobustnessStatement
+Experimental scope,300 SPICE simulations were performed using the specified tolerance perturbations.
+Physical validity,All tested tolerance-perturbed simulations remained physically valid (100.0%).
+Low case,Low-case gain standard deviation was 0.6883 dB with CV 3.019%.
+Medium case,Medium-case gain standard deviation was 0.4848 dB with CV 1.234%.
+High case,High-case gain standard deviation was 0.7663 dB with CV 1.630%.
+Interpretation,The robustness result demonstrates stability within the tested tolerance ranges; it should not be generalized beyond those specified perturbation ranges.

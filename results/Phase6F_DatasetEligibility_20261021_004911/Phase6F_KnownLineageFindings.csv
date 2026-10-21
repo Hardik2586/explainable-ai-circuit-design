@@ -1,0 +1,4 @@
+Comparison,Finding,EvidenceStatus,RequiredControl
+BJT_v3_vs_v4,500 configurations shared,CONFIGURATION_OVERLAP_CONFIRMED,Do not treat as independent datasets
+BJT_v3_vs_v4,20 status discrepancy records,STATUS_DISCREPANCIES_CONFIRMED,Investigate the 10 affected configurations and both status fields
+MOSFET_pilot_vs_validation,0 shared configurations under tested keys,UNRESOLVED,Zero overlap does not establish independence; reconcile aliases and units

@@ -1,0 +1,97 @@
+===============================================================
+FINAL RESEARCH NUMERICAL SUMMARY
+Explainable AI Framework for Electronic Circuit Understanding
+and Design Optimization
+===============================================================
+
+DATASET
+Dataset size                 : 660 rows
+Number of features           : 9
+Gain range                   : 9.412197 to 51.445078 dB
+SPICE physical validity      : 100.00 %
+Circuit constraint coverage  : 95.45 %
+
+PREDICTIVE MODELING
+DL test R2                   : 0.900713
+DL test RMSE                 : 2.097821 dB
+DL test MAE                  : 1.567284 dB
+DL Pearson                   : 0.950660
+DL Spearman                  : 0.943982
+DL 5-fold CV R2              : 0.917361 +/- 0.016626
+LSBoost test R2              : 0.786728
+LSBoost test RMSE            : 3.074611 dB
+LSBoost test MAE             : 2.546493 dB
+DL R2 improvement            : 0.113986
+RMSE reduction               : 31.77 %
+MAE reduction                : 38.45 %
+
+XAI
+DL/LSBoost SHAP Spearman     : 0.866667
+DL/LSBoost SHAP Pearson      : 0.940378
+R1-R2 SHAP interaction       : 0.614414
+R1-R2 SPICE Pearson          : 0.914717
+R1-R2 SPICE Spearman         : 0.873801
+
+OPTIMIZATION
+
+Low
+  Baseline SPICE             : 16.170634 dB
+  Baseline DL               : 15.595847 dB
+  Final DL                  : 27.036734 dB
+  Final SPICE               : 22.923421 dB
+  Predicted improvement     : +11.440886 dB
+  Actual improvement        : +6.752787 dB
+  Final VCE                 : 12.801467 V
+  Final VCB                 : 12.161276 V
+  Physical valid            : 1
+  Constraint valid          : 1
+
+Medium
+  Baseline SPICE             : 35.026311 dB
+  Baseline DL               : 33.166370 dB
+  Final DL                  : 40.954315 dB
+  Final SPICE               : 39.290999 dB
+  Predicted improvement     : +7.787945 dB
+  Actual improvement        : +4.264688 dB
+  Final VCE                 : 7.716307 V
+  Final VCB                 : 7.053522 V
+  Physical valid            : 1
+  Constraint valid          : 1
+
+High
+  Baseline SPICE             : 47.655775 dB
+  Baseline DL               : 45.322826 dB
+  Final DL                  : 49.213421 dB
+  Final SPICE               : 47.069203 dB
+  Predicted improvement     : +3.890594 dB
+  Actual improvement        : -0.586572 dB
+  Final VCE                 : 3.462649 V
+  Final VCB                 : 2.797909 V
+  Physical valid            : 1
+  Constraint valid          : 1
+
+ROBUSTNESS
+Total SPICE runs            : 300
+Minimum physical validity   : 100.00 %
+Low gain STD             : 0.688299 dB
+Low gain CV              : 3.019 %
+Medium gain STD             : 0.484751 dB
+Medium gain CV              : 1.234 %
+High gain STD             : 0.766259 dB
+High gain CV              : 1.630 %
+
+GENERALIZATION
+Low prediction error     : +4.113313 dB
+Low absolute error       : 4.113313 dB
+Medium prediction error     : +1.663316 dB
+Medium absolute error       : 1.663316 dB
+High prediction error     : +2.144218 dB
+High absolute error       : 2.144218 dB
+
+CRITICAL LIMITATION
+High-gain DL prediction      : +3.890594 dB improvement
+High-gain SPICE result       : -0.586572 dB improvement
+
+CONCLUSION
+The framework demonstrates useful surrogate prediction, explainability, physically validated optimization for representative low- and medium-gain cases, and robustness within the tested tolerance ranges.
+The high-gain case demonstrates that the surrogate cannot replace final SPICE verification.

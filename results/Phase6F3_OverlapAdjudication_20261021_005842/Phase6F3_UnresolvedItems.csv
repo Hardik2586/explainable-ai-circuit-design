@@ -1,0 +1,6 @@
+Issue,CurrentEvidence,RequiredAction
+BJT_v3_vs_v4,500 shared configurations; 20 status discrepancy records,"Inspect affected rows and source-generation logic"
+MOSFET_pilot_vs_validation,Provisional overlap on seven tested keys,"Reconcile Cout_F, units, scales and exact source provenance"
+Non-comparable dataset pairs,Some datasets do not expose required configuration columns,"Trace derived outputs to their source datasets"
+Protected evaluation artifacts,Two registered protected datasets,"Keep out of training, feature selection and hyperparameter tuning"
+Evaluation split,Not approved,"Do not create a split until grouping and source eligibility are reviewed"

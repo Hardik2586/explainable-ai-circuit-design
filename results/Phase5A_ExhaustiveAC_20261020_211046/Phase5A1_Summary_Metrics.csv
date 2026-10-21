@@ -1,0 +1,2 @@
+DCFeasibleCandidates,ACSuccessCount,ValidACCount,BestExhaustiveGain_dB,BestOriginalShortlistGain_dB,ShortlistGainRegret_dB,Top15RecallOfActualTop15,ShortlistMeanAbsolutePredictionError_dB,ShortlistMedianAbsolutePredictionError_dB
+162,162,162,9.89598864224897,9.89598864224897,0,0.666666666666667,1.19026189464854,1.44700357487275

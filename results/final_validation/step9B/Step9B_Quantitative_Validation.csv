@@ -1,0 +1,37 @@
+Metric,Value,Units
+Dataset size,660,rows
+Gain minimum,9.41219725,dB
+Gain median,35.189491325,dB
+Gain maximum,51.4450783,dB
+SPICE physical validity,100,%
+Circuit-aware constraint coverage,95.4545454545455,%
+DL test R2,0.90071344951091,dimensionless
+DL test RMSE,2.09782059636698,dB
+DL test MAE,1.56728440342527,dB
+DL test Pearson,0.950660133754446,dimensionless
+DL test Spearman,0.94398209263617,dimensionless
+DL 5-fold mean R2,0.917361148259181,dimensionless
+DL 5-fold R2 std,0.0166262497882848,dimensionless
+DL 5-fold mean RMSE,2.05248327556066,dB
+DL 5-fold RMSE std,0.225538871166014,dB
+DL 5-fold mean MAE,1.60144962497834,dB
+DL 5-fold MAE std,0.154617534890541,dB
+LSBoost test R2,0.78672783224615,dimensionless
+LSBoost test RMSE,3.07461134593401,dB
+LSBoost test MAE,2.54649268069009,dB
+R2 improvement,0.11398561726476,dimensionless
+RMSE reduction,31.7695682369341,%
+MAE reduction,38.4532138925863,%
+SHAP rank Spearman,0.866666666666667,dimensionless
+SHAP rank Pearson,0.940377719514679,dimensionless
+R1-R2 SHAP interaction,0.614414,SHAP units
+R1-R2 SPICE Pearson,0.914717,dimensionless
+R1-R2 SPICE Spearman,0.873801,dimensionless
+R1-R2 SPICE RMSE,6.889992,dB
+R1-R2 SPICE MAE,4.782041,dB
+Low SPICE improvement,6.752787,dB
+Medium SPICE improvement,4.264688,dB
+High SPICE improvement,-0.586572,dB
+Final constraint-valid designs,3,designs
+Robustness SPICE runs,300,runs
+Robustness physical validity,100,%

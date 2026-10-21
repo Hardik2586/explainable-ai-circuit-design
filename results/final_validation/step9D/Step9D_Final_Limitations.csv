@@ -1,0 +1,7 @@
+LimitationID,Limitation,LimitationStatement
+L01,Surrogate prediction error,"Optimization prediction errors reached 4.1133 dB in the tested cases."
+L02,High-gain optimization failure,"The High case produced -0.5866 dB SPICE improvement despite a predicted improvement of +3.8906 dB."
+L03,Limited optimization cases,"Optimization was evaluated using Low, Medium and High representative cases rather than exhaustive optimization of the complete design space."
+L04,Single circuit topology,"The validated dataset and experiments concern a Common-Emitter BJT amplifier and should not automatically be generalized to other circuit topologies."
+L05,Finite robustness range,"Robustness was evaluated using 300 specified tolerance-perturbed SPICE runs."
+L06,SHAP physical interpretation boundary,"SHAP explains the surrogate model. SHAP importance should not be directly equated with a physical sensitivity coefficient."

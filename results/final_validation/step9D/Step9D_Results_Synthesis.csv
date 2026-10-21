@@ -1,0 +1,9 @@
+ResultID,ResultTopic,ResultStatement,ResultInterpretation
+R01,Dataset,"The validated dataset contains 660 physically valid circuits with gain ranging from 9.412 to 51.445 dB.","The dataset provides the physical basis for surrogate modeling."
+R02,DL performance,"The DL model achieved R2=0.9007, RMSE=2.0978 dB and MAE=1.5673 dB on the held-out test set.","The DL model provides useful predictive accuracy for the investigated CE amplifier dataset."
+R03,Baseline comparison,"Compared with LSBoost, the DL model improved R2 by 0.1140, reduced RMSE by 31.77% and reduced MAE by 38.45%.","The DL model provides a stronger predictive result than the selected classical baseline."
+R04,Cross-validation,"Five-fold cross-validation produced a DL mean R2 of 0.9174 +/- 0.0166.","The cross-validation result supports model stability across data partitions."
+R05,Explainability,"Global SHAP rankings showed strong agreement between DL and LSBoost, with Spearman correlation 0.8667.","The XAI results provide an interpretable ranking of influential circuit variables."
+R06,Optimization,"SPICE verification produced actual gain improvements of +6.7528 dB, +4.2647 dB and -0.5866 dB for Low, Medium and High cases.","Optimization is effective for the tested Low and Medium representative cases, but not universally successful."
+R07,Robustness,"300 tolerance-perturbed SPICE simulations remained physically valid, corresponding to 100.0% validity.","The optimized candidates remained physically valid under the specified robustness experiment."
+R08,Generalization,"Optimization prediction errors were 4.1133, 1.6633 and 2.1442 dB for Low, Medium and High cases.","The generalization analysis demonstrates that surrogate error must be considered during optimization."

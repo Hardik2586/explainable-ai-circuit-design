@@ -1,0 +1,10 @@
+DatasetFile,Topology,RowsAssigned,UniqueConfigurationGroups,TrainRows,ValidationRows,TestRows
+CE_Amplifier_Dataset_v3_500.csv,BJT_Common_Emitter,500,500,350,75,75
+CE_Amplifier_Dataset_v4_500_1GHz.csv,BJT_Common_Emitter,500,500,350,75,75
+CE_Amplifier_Dataset_v5_2000_1GHz.csv,BJT_Common_Emitter,2000,2000,1400,300,300
+CE_Amplifier_ML_Valid.csv,BJT_Common_Emitter,660,660,461,99,100
+CE_Amplifier_OperatingPoint_660.csv,BJT_Common_Emitter,660,660,461,99,100
+CS_DC_Analysis.csv,MOSFET_Common_Source,100,100,70,15,15
+CS_Dataset_v2_100.csv,MOSFET_Common_Source,210,100,147,31,32
+CS_Pilot_20261013_015305.csv,MOSFET_Common_Source,20,20,14,3,3
+Phase5A_DC_Candidates.csv,MOSFET_Common_Source,205,205,143,30,32

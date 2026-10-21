@@ -1,0 +1,24 @@
+Dataset,ColumnName,MATLABType,RowCount,MissingCount,FirstThreeExamples
+MOSFET_Pilot,CircuitID,double,20,0,1 | 2 | 3
+MOSFET_Pilot,RGU_Ohm,double,20,0,100000 | 82000 | 82000
+MOSFET_Pilot,RGL_Ohm,double,20,0,100000 | 56000 | 100000
+MOSFET_Pilot,RD_Ohm,double,20,0,2700 | 2700 | 2700
+MOSFET_Pilot,RS_Ohm,double,20,0,1000 | 1000 | 820
+MOSFET_Pilot,CIN_F,double,20,0,4.7e-06 | 2.2e-05 | 4.7e-06
+MOSFET_Pilot,VDD_V,double,20,0,12 | 12 | 12
+MOSFET_Pilot,Vgate_V,double,20,0,6 | 4.8696 | 6.5934
+MOSFET_Pilot,Vsource_V,double,20,0,3.2197 | 2.5575 | 2.7866
+MOSFET_Pilot,Vdrain_V,double,20,0,3.3069 | 5.0946 | 2.8246
+MOSFET_Pilot,VGS_V,double,20,0,2.7803 | 2.312 | 3.8068
+MOSFET_Pilot,VDS_V,double,20,0,0.087254 | 2.5371 | 0.037988
+MOSFET_Pilot,ID_A,double,20,0,0.0032197 | 0.0025575 | 0.0033983
+MOSFET_Pilot,PeakGain_VV,double,20,0,0.088024 | 2.5187 | 0.016327
+MOSFET_Pilot,PeakGain_dB,double,20,0,-21.108 | 8.02347 | -35.7421
+MOSFET_Pilot,PeakGainFrequency_Hz,double,20,0,1819.701 | 251.1886 | 1096.478
+MOSFET_Pilot,PhaseDiffAtPeak_deg,double,20,0,-179.9786 | -179.9506 | -179.9609
+MOSFET_Pilot,DCSuccess,double,20,0,1 | 1 | 1
+MOSFET_Pilot,ACSuccess,double,20,0,1 | 1 | 1
+MOSFET_Pilot,BiasRegion,cell,20,0,TRIODE | SATURATION | TRIODE
+MOSFET_Pilot,DCStatus,cell,20,0,SUCCESS | SUCCESS | SUCCESS
+MOSFET_Pilot,ACStatus,cell,20,0,SUCCESS | SUCCESS | SUCCESS
+MOSFET_Pilot,ErrorMessage,double,20,20,<MISSING> | <MISSING> | <MISSING>

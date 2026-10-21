@@ -1,0 +1,18 @@
+FileName,RiskCode,RequiredAction,Severity
+CE_Amplifier_Dataset_v3_500.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CE_Amplifier_Dataset_v4_500_1GHz.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CE_Amplifier_OperatingPoint_660.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CE_Amplifier_Dataset_v5_2000_1GHz.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CS_Pilot_20261013_015305.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CS_Dataset_v2_100.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CS_Response_Diagnostics.csv,INCOMPLETE_CONFIGURATION_KEYS,Inspect missing key values before grouping or splitting,HIGH
+CS_DC_Analysis.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CS_AC_Performance_Labels.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CS_AC_Performance_Metrics.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CS_Bandwidth_Reference_Analysis.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+Phase4H_FreshCircuitDataset.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+Phase5A_DC_Candidates.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CS_Dataset_v2_100.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CS_Dataset_v2_100.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CS_Dataset_v2_100.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH
+CS_Dataset_v2_100.csv,READ_ERROR,Conversion of element 1 from <missing> to character vector is not supported.,HIGH

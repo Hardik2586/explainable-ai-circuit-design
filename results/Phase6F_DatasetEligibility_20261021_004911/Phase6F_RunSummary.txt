@@ -1,0 +1,24 @@
+PHASE 6F - DATASET ELIGIBILITY VALIDATION
+Timestamp: 20261021_004911
+Read-only: YES
+Registered paths: 19
+Readable files: 19
+Missing files: 0
+Read errors: 0
+Protected entries: 2
+Derived outputs: 6
+Review-required entries: 6
+Hold entries: 5
+Risk register rows: 20
+
+KNOWN EVIDENCE
+BJT v3/v4: 500 shared configurations.
+BJT status differences: 20 records across two fields.
+MOSFET pilot/validation: zero matched tested keys; independence unresolved.
+
+LIMITATIONS
+This script performs eligibility screening, not final source approval.
+Missing-value percentage is cell-based and is not a target-quality score.
+Configuration key completeness does not prove unique configurations.
+No training, split creation, split application, or split approval occurred.
+All proposed roles require review against source provenance.

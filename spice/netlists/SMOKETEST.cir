@@ -1,0 +1,30 @@
+* CE Amplifier - SMOKETEST (auto-generated, do not edit by hand)
+.include "C:/Internship Project/ce_amplifier_dataset/models/2N3904.lib"
+.options TEMP=27.0000 TNOM=27
+
+Vcc VCC 0 DC 1.33000000e+01
+Vin IN 0 DC 0 AC 1
+Cin IN BASE 1.64540000e-08
+R1 VCC BASE 7.76020000e+05
+R2 BASE 0 4.88680000e+05
+Q1 COLL BASE EMIT 2N3904
+RC1 VCC COLL 7.34900000e+02
+RE1 EMIT 0 3.61210000e+02
+CE1 EMIT 0 4.53030000e-07
+Cout COLL OUT 2.42100000e-07
+RL1 OUT 0 1.09070000e+03
+
+.control
+op
+print v(base)
+print v(emit)
+print v(coll)
+print @q1[ib]
+print @q1[ic]
+print @q1[ie]
+ac dec 20 10 1e+09
+wrdata spice_raw/SMOKETEST_ac_gain.txt vdb(out)
+wrdata spice_raw/SMOKETEST_ac_phase.txt vp(out)
+quit
+.endc
+.end

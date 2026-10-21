@@ -1,0 +1,21 @@
+FileName,RiskCode,RequiredAction,Severity
+CE_Amplifier_Dataset_v3_500.csv,MISSING_VALUES,"Determine whether missingness affects features, targets, or status labels",MEDIUM
+CE_Amplifier_Dataset_v4_500_1GHz.csv,MISSING_VALUES,"Determine whether missingness affects features, targets, or status labels",MEDIUM
+CE_Amplifier_OperatingPoint_660.csv,MISSING_VALUES,"Determine whether missingness affects features, targets, or status labels",MEDIUM
+CE_Amplifier_Dataset_v5_2000_1GHz.csv,MISSING_VALUES,"Determine whether missingness affects features, targets, or status labels",MEDIUM
+CS_Pilot_20261013_015305.csv,READ_ERROR,"Unrecognized table variable name 'Cin_F'. Variable names are case sensitive. You may have intended to access the 'CIN_F' variable.",HIGH
+CS_Dataset_v2_100.csv,READ_ERROR,"Unrecognized table variable name 'Cin_F'. Variable names are case sensitive. You may have intended to access the 'CIN_F' variable.",HIGH
+CS_Response_Diagnostics.csv,INCOMPLETE_CONFIGURATION_KEYS,"Inspect missing key values before grouping or splitting",HIGH
+CS_DC_Analysis.csv,READ_ERROR,"Unrecognized table variable name 'Cin_F'. Variable names are case sensitive. You may have intended to access the 'CIN_F' variable.",HIGH
+CS_AC_Performance_Labels.csv,INCOMPLETE_CONFIGURATION_KEYS,"Inspect missing key values before grouping or splitting",HIGH
+CS_AC_Performance_Labels.csv,MISSING_VALUES,"Determine whether missingness affects features, targets, or status labels",MEDIUM
+CS_AC_Performance_Metrics.csv,INCOMPLETE_CONFIGURATION_KEYS,"Inspect missing key values before grouping or splitting",HIGH
+CS_AC_Performance_Metrics.csv,MISSING_VALUES,"Determine whether missingness affects features, targets, or status labels",MEDIUM
+CS_Bandwidth_Reference_Analysis.csv,INCOMPLETE_CONFIGURATION_KEYS,"Inspect missing key values before grouping or splitting",HIGH
+CS_Bandwidth_Reference_Analysis.csv,MISSING_VALUES,"Determine whether missingness affects features, targets, or status labels",MEDIUM
+Phase4H_FreshCircuitDataset.csv,READ_ERROR,"Unrecognized table variable name 'Cin_F'. Variable names are case sensitive. You may have intended to access the 'CIN_F' variable.",HIGH
+Phase5A_DC_Candidates.csv,READ_ERROR,"Unrecognized table variable name 'Cin_F'. Variable names are case sensitive. You may have intended to access the 'CIN_F' variable.",HIGH
+CS_Dataset_v2_100.csv,READ_ERROR,"Unrecognized table variable name 'Cin_F'. Variable names are case sensitive. You may have intended to access the 'CIN_F' variable.",HIGH
+CS_Dataset_v2_100.csv,READ_ERROR,"Unrecognized table variable name 'Cin_F'. Variable names are case sensitive. You may have intended to access the 'CIN_F' variable.",HIGH
+CS_Dataset_v2_100.csv,READ_ERROR,"Unrecognized table variable name 'Cin_F'. Variable names are case sensitive. You may have intended to access the 'CIN_F' variable.",HIGH
+CS_Dataset_v2_100.csv,READ_ERROR,"Unrecognized table variable name 'Cin_F'. Variable names are case sensitive. You may have intended to access the 'CIN_F' variable.",HIGH

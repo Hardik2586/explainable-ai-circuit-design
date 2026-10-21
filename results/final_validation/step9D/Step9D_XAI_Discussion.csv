@@ -1,0 +1,8 @@
+XAI_Description,XAI_Statement
+Global feature importance,"The DL SHAP analysis ranks R1 as the most influential variable."
+Dominant DC variables,"R1, R2, RE and RC occupy the dominant portion of the global feature-importance ranking."
+Supply influence,"VCC contributes materially to the learned gain prediction, consistent with its position among the dominant features."
+Load influence,"RL has lower global importance than the dominant bias and collector/emitter resistance variables but remains relevant."
+Capacitive variables,"Cin, Cout and Ce have substantially smaller global Mean|SHAP| values than the dominant variables in the learned surrogate."
+Interaction analysis,"The R1-R2 SHAP interaction value is 0.6144 and the corresponding SPICE validation has Pearson correlation 0.9147."
+Physical interpretation boundary,"SHAP values explain the surrogate model and should not be interpreted as direct physical sensitivity coefficients. SPICE validation provides the physical interpretation check."

@@ -1,0 +1,7 @@
+Group,Model,Count,GroupMAE,GroupRMSE
+Below -10 dB,Global_DC_BaggedTrees,10,5.6674727233817,6.521810355589
+Below -10 dB,Routed_Linear_Specialist,10,3.44088519971829,4.44463330953254
+Below -10 dB,Routed_Ridge_Specialist,10,1.16244229318331,1.4256838270293
+At least -10 dB,Global_DC_BaggedTrees,90,0.889256609792893,1.17235935450995
+At least -10 dB,Routed_Linear_Specialist,90,0.889256609792893,1.17235935450995
+At least -10 dB,Routed_Ridge_Specialist,90,0.889256609792893,1.17235935450995

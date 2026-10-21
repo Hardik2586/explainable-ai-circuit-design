@@ -1,0 +1,7 @@
+Scope,Area,Policy
+BJT,Common-emitter datasets,Keep topology separate and inspect labels/features.
+BJT,Overlapping CE versions,Group shared circuit configurations across versions.
+MOSFET,Common-source datasets,Compare only compatible circuit parameter schemas.
+ALL,Historical test/holdout files,Preserve historical evaluation roles.
+ALL,Derived outputs and predictions,Do not automatically treat derived files as source data.
+ALL,New train/validation/test splits,No split is approved by this audit.

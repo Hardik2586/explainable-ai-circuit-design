@@ -1,0 +1,5 @@
+Item,Expected,Observed,Status
+Global_SHAP_Table_Rows,"9 rows (one per parameter)","9 rows",PASS
+Local_SHAP_Matrix_Dimensions,"3 x 9 (3 circuits, 9 features)","3 x 9",PASS
+Feature_Transformation_Consistency,"Log10 for R1..Ce, linear for VCC","Log10 for R1..Ce, linear for VCC (verified in train & shap scripts)",PASS
+Predictor_Mapping_x1_to_x9,"x1:R1, x2:R2, x3:RC, x4:RE, x5:RL, x6:Cin, x7:Cout, x8:Ce, x9:VCC","Matched exactly in SHAP_Dependence_Ranking.csv and Table03",PASS

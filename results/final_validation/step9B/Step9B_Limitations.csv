@@ -1,0 +1,7 @@
+LimitationID,Limitation,Evidence,ResearchImplication
+L01,Surrogate prediction error remains nonzero,"Optimized prediction errors: 4.1133, 1.6633, 2.1442 dB","SPICE verification remains necessary for optimized candidates."
+L02,High-gain optimization failure,"High predicted +3.8906 dB vs actual -0.5866 dB","The framework should be presented as surrogate-assisted optimization, not autonomous optimization."
+L03,SHAP interaction is not identical to physical interaction,"SHAP interaction=0.6144; SPICE global Pearson=0.9147","SHAP should be described as an explanation of the learned model, with SPICE used for physical validation."
+L04,Robustness is demonstrated only over tested tolerance ranges,"300 simulations with specified tolerance bounds","Do not generalize the robustness result beyond the tested component and supply tolerances."
+L05,Optimization conclusions are based on three representative cases,"Low, Medium and High representative optimization cases","Do not claim universal optimization success from three representative cases."
+L06,The dataset represents one CE amplifier topology,"Canonical dataset and validation concern the CE BJT amplifier","Claims should not automatically be transferred to other transistor topologies or circuit classes."

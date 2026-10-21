@@ -1,0 +1,27 @@
+PHASE 6F.1 - CANONICAL KEY MAPPING
+Timestamp: 20261021_005158
+Read-only: YES
+Registered files: 19
+Readable files: 19
+Missing files: 0
+Read errors: 0
+Protected entries: 2
+Hold entries: 11
+Review-required entries: 0
+Derived outputs: 6
+Key mapping rows: 158
+Within-file duplicate signature groups: 0
+Risk register rows: 60
+
+KNOWN LINEAGE CAVEATS
+BJT v3/v4 have 500 shared configurations from prior audits.
+BJT v3/v4 have 20 status discrepancy records from prior audits.
+MOSFET pilot/validation independence remains unresolved.
+
+IMPORTANT LIMITATIONS
+Alias matching is case-insensitive but does not prove physical equivalence.
+Units and scales must be independently verified.
+Configuration signatures are computed within files only.
+Cross-file matching is not performed in this phase.
+No training or train/test split was created or approved.
+Source CSVs were not modified.

@@ -1,0 +1,5 @@
+Scope,Rule
+BJT_Common_Emitter,"Review CE source tables, measurements, and labels."
+MOSFET_Common_Source,"Review CS source tables and compatible circuit parameter schemas."
+Unknown,"Do not mix unknown topology files into a training family."
+ALL,"No source file or evaluation split is automatically approved."
